@@ -1142,10 +1142,12 @@ body.ie ._ibg img {
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+    visibility: hidden;
   }
 
   .menu__body._active {
     top: 0px;
+    visibility: visible;
   }
 
   .menu__list {
